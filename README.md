@@ -1,18 +1,9 @@
 # Getting-and-Cleaning-Data
 Homeworks for week for of getting and cleaning data, Coursera
 
-# Steps that describe the script
+The data we used for this assignment relates to 30 people collecting data from their smartphones, which the UCI consolidated and published it on its own website as daily human activities.
 
-0) Set the working directory correctly
-1) Download and load file
-2) Variable assignation
-3) Merges the training and the test sets to create one data set
-4) verification of the data (double check to see if data is correct)
-5) Extracts only the measurements on the mean and standard deviation for each measurement
-6) verification of the data (double check to see if data is correct)
-7) Uses descriptive activity names to name the activities in the data set
-8) Appropriately labels the data set with descriptive variable names
-9) Independent tidy data set with the average of each variable for each activity and each subject
-10) apply the mean after we have groupped the data by subject and activity
-11) Verification of the data (double check to see if data is correct)
-12) Export the data to a text file
+Within this repo you'll find the following files:
+  TidyData.txt --> It has the result of a set of instructions given by the course.
+  CodeBook.md --> Contains the instructions and a summary of the logic used to get to the solution.
+  run_analysis.R --> Code written by me to get to the solution described in the codebook.md
